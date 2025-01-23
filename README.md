@@ -63,23 +63,30 @@ Kütüphane Yönetim Sistemi, bir kütüphanenin kullanıcı yönetimi, kitap ö
 ### Ana Sayfa
 Kullanıcıların sisteme giriş yaptıktan sonra karşılaştığı hoş geldiniz ekranı.
 
-![Ana Sayfa](link_to_image)
+(![Ekran görüntüsü 2025-01-23 122911](https://github.com/user-attachments/assets/52b27ce4-3d84-4ab9-854d-8bc707889315)
+(![Ekran görüntüsü 2025-01-23 123002](https://github.com/user-attachments/assets/03d34913-7ba0-4577-b9b1-6731e600a49e)
+
+### Hakkımızda Syfası
+![Ekran görüntüsü 2025-01-23 123602](https://github.com/user-attachments/assets/51ce113d-b115-43d0-808f-c9a08e93e285)
+
+### Bize Ulaşın Sayfası
+![Ekran görüntüsü 2025-01-23 123602](https://github.com/user-attachments/assets/ed99b401-a984-4d79-b3e0-37ce636d5804)
 
 ### Kitap Listesi
 Kütüphanede mevcut kitapların listesi.
-
-![Kitap Listesi](![Ekran görüntüsü 2025-01-23 122416](https://github.com/user-attachments/assets/4bb34136-2909-462e-b44c-fa7139719a94)
-)
+(![Ekran görüntüsü 2025-01-23 122416](https://github.com/user-attachments/assets/4bb34136-2909-462e-b44c-fa7139719a94)
 
 ### Kullanıcı Listesi
 Adminlerin tüm kullanıcıları görebildiği ve durumlarını değiştirebildiği liste.
 
-![Kullanıcı Listesi](link_to_image)
-
 ### Kitap Detayları ve Ödünç Alma
 Kitapların detaylı bilgileri ve ödünç alma işlemleri.
+![image](https://github.com/user-attachments/assets/d0b8c1cc-d5a3-4790-a324-0ba20874cc88)
+![Ekran görüntüsü 2025-01-23 123205](https://github.com/user-attachments/assets/86657f10-e0b5-4982-9b1f-1e936c037787)
 
-![Kitap Detayları](link_to_image)
+###Favorileme ve Favorileri Görüntüleme
+![Ekran görüntüsü 2025-01-23 123321](https://github.com/user-attachments/assets/a9d126b3-c20c-48c8-a080-03d0ab5b1187)
+![Ekran görüntüsü 2025-01-23 123500](https://github.com/user-attachments/assets/f3d46bc0-eb28-4869-9054-2d1cbb81d84a)
 
 ---
 
