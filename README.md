@@ -28,8 +28,8 @@ Kütüphane Yönetim Sistemi, bir kütüphanenin kullanıcı yönetimi, kitap ö
    - Kitap detayları (ISBN, yazar, yayın yılı, tür vb.) düzenlenebilir.
 
 2. **Kullanıcı Yönetimi**:
-   - Kullanıcıların durumu (aktif/pasif) yönetilebilir.
-   - Pasif yapılan kullanıcılar, sisteme giriş yapamaz.
+   - Kullanıcıların durumu (aktif/pasif) görüntülenebilir.
+
 
 3. **Ödünç Alma Takibi**:
    - Kullanıcıların aktif ve geçmiş ödünç alma işlemleri görüntülenebilir.
@@ -68,7 +68,8 @@ Kullanıcıların sisteme giriş yaptıktan sonra karşılaştığı hoş geldin
 ### Kitap Listesi
 Kütüphanede mevcut kitapların listesi.
 
-![Kitap Listesi](link_to_image)
+![Kitap Listesi](![Ekran görüntüsü 2025-01-23 122416](https://github.com/user-attachments/assets/4bb34136-2909-462e-b44c-fa7139719a94)
+)
 
 ### Kullanıcı Listesi
 Adminlerin tüm kullanıcıları görebildiği ve durumlarını değiştirebildiği liste.
