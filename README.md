@@ -30,7 +30,6 @@ Kütüphane Yönetim Sistemi, bir kütüphanenin kullanıcı yönetimi, kitap ö
 2. **Kullanıcı Yönetimi**:
    - Kullanıcıların durumu (aktif/pasif) görüntülenebilir.
 
-
 3. **Ödünç Alma Takibi**:
    - Kullanıcıların aktif ve geçmiş ödünç alma işlemleri görüntülenebilir.
    - Gecikme cezaları ve iade durumları kontrol edilebilir.
@@ -137,9 +136,3 @@ Sisteme giriş yaptıktan sonra karşılaştığı hoş geldiniz ekranı.
 
 ---
 
-## 📬 **İletişim**
-Eğer proje hakkında herhangi bir sorunuz veya öneriniz varsa, lütfen benimle iletişime geçmekten çekinmeyin.
-
----
-
-**Not:** Görselleri yükledikten sonra bağlantıları **[link_to_image]** ile değiştirin ve projeyi GitHub'da paylaşabilirsiniz!
