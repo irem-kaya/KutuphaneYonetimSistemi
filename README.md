@@ -48,6 +48,7 @@ Kütüphane Yönetim Sistemi, bir kütüphanenin kullanıcı yönetimi, kitap ö
 ### 2. **Giriş ve Kayıt İşlemleri**:
 - Yeni kullanıcı kaydı oluşturmak için "Kayıt Ol" seçeneğini kullanın.
 - Mevcut bir kullanıcı hesabıyla giriş yapmak için "Giriş Yap" seçeneğini kullanın.
+- Ödünç l işlemleri için giriş yapmak zorunludur.
 
 ### 3. **Kitap Yönetimi**:
 - Admin panelinden kitap ekleme, güncelleme ve silme işlemleri yapılabilir.
@@ -60,17 +61,23 @@ Kütüphane Yönetim Sistemi, bir kütüphanenin kullanıcı yönetimi, kitap ö
 
 ## 📸 **Proje Görselleri**
 
+### Giriş Yap ve Kayit Ol Ekranları
+![Ekran görüntüsü 2025-01-23 130731](https://github.com/user-attachments/assets/6ac3596f-16f3-4afc-b1f7-482a1619b43a)
+![Ekran görüntüsü 2025-01-23 130801](https://github.com/user-attachments/assets/0b9037cb-0e26-4226-914d-8124bb761f97)
+
 ### Ana Sayfa
 Kullanıcıların sisteme giriş yaptıktan sonra karşılaştığı hoş geldiniz ekranı.
 ![Ekran görüntüsü 2025-01-23 122911](https://github.com/user-attachments/assets/52b27ce4-3d84-4ab9-854d-8bc707889315)
+
 #### Kitaplara Göz At
 ![Ekran görüntüsü 2025-01-23 123002](https://github.com/user-attachments/assets/03d34913-7ba0-4577-b9b1-6731e600a49e)
+
 ### Kitap Detayları ve Ödünç Alma
 Kitapların detaylı bilgileri ve ödünç alma işlemleri.
 ![image](https://github.com/user-attachments/assets/d0b8c1cc-d5a3-4790-a324-0ba20874cc88)
 ![Ekran görüntüsü 2025-01-23 123205](https://github.com/user-attachments/assets/86657f10-e0b5-4982-9b1f-1e936c037787)
 
-### Hakkımızda Syfası
+### Hakkımızda Sayfası
 ![Ekran görüntüsü 2025-01-23 123602](https://github.com/user-attachments/assets/5d35d245-2acd-4ad4-aa23-0cd0af4483a6)
 
 ### Bize Ulaşın Sayfası
@@ -83,16 +90,19 @@ Kullanıcının favorilediği kitaplar listesi.
 
 # Admin Sayfaları 
 ### Ana Sayfa
-Kullanıcıların sisteme giriş yaptıktan sonra karşılaştığı hoş geldiniz ekranı.
+Sisteme giriş yaptıktan sonra karşılaştığı hoş geldiniz ekranı.
 ![image](https://github.com/user-attachments/assets/1ef6f907-1251-4279-b610-94074472cbaf)
+
 ### Kitap Ekleme Paneli
 ![image](https://github.com/user-attachments/assets/39fcfbd6-6182-4968-b1bd-d69cf82ee6ec)
 ![image](https://github.com/user-attachments/assets/0667359e-8b50-4349-8463-d0fd6d50680d)
-
 ![image](https://github.com/user-attachments/assets/93baa4a4-2124-49d4-a12f-e15866739cb8)
-![image](https://github.com/user-attachments/assets/f9e6e0c8-a534-497d-a472-ba163cc707f2)
-![image](https://github.com/user-attachments/assets/6416af51-a262-4cc3-bd1e-9f61aabb9a06)
 
+### Kitapları Yönet Paneli
+![image](https://github.com/user-attachments/assets/f9e6e0c8-a534-497d-a472-ba163cc707f2)
+
+### Kullanicilari Yönet Paneli
+![image](https://github.com/user-attachments/assets/6416af51-a262-4cc3-bd1e-9f61aabb9a06)
 
 
 ---
