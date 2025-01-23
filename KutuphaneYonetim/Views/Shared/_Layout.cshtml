@@ -1,0 +1,272 @@
+﻿
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Kütüphane Yönetim Sistemi</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-image: url('/images/arka-plan.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            color: white;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .navbar {
+            background-color: rgba(31, 31, 31, 0.9);
+            padding: 10px 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .search-bar {
+            background-color: #333;
+            border: none;
+            border-radius: 20px;
+            padding: 5px 15px;
+            color: white;
+            width: 100%;
+        }
+
+        .btn-custom-admin {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1rem;
+            font-weight: bold;
+            color: #121212;
+            background-color: #FFC107;
+            border: none;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+            .btn-custom-admin:hover {
+                background-color: #E6A600;
+                transform: scale(1.05);
+            }
+
+        .welcome-section {
+            text-align: center;
+            margin: 50px 0;
+        }
+
+            .welcome-section h1 {
+                font-size: 3rem;
+                font-weight: bold;
+                text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+            }
+
+            .welcome-section .role {
+                color: #FFC107;
+                font-weight: bold;
+                text-shadow: 0 0 10px rgba(255, 193, 7, 0.8);
+            }
+
+
+        .action-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .btn-custom-dark {
+            display: block;
+            width: 200px;
+            padding: 15px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFC107;
+            background-color: #1f1f1f; 
+            border: 2px solid #FFC107;
+            border-radius: 30px;
+            transition: transform 0.3s, background-color 0.3s, color 0.3s;
+            text-decoration: none;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+        }
+
+            .btn-custom-dark:hover {
+                background-color: #FFC107; 
+                color: #121212; 
+                transform: scale(1.05);
+            }
+
+        .container {
+            position: relative;
+        }
+
+        .form-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7); 
+            z-index: -1; 
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <button class="btn btn-outline-light me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar">
+                ☰
+            </button>
+            <a href="/" class="navbar-brand">Kütüphane</a>
+
+            <div class="d-flex align-items-center ms-auto">
+                @if (ViewData["Title"]?.ToString() == "Kitap Listesi")
+                {
+                    <form id="searchForm" action="/Kitap/Ara" method="get" class="d-flex me-3">
+                        <input type="text" name="searchKeyword" class="search-bar" placeholder="Arama yap...">
+                    </form>
+                }
+               
+
+                <!-- Favoriler Modal -->
+                <div class="modal fade" id="favorilerModal" tabindex="-1" aria-labelledby="favorilerModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="favorilerModalLabel">Favorilerim</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="favorilerListesi">
+                                    <!-- Favoriler buraya AJAX ile yüklenecek -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <span class="text-light me-3">Hoş geldiniz, <strong>@User.Identity.Name</strong></span>
+                    @if (User.IsInRole("Yonetici"))
+                    {
+                        <a href="/Ana/Index" class="btn-custom-admin me-2">Admin Paneli</a>
+                    }
+                    else
+                    {
+                        <a href="/Ana/Index" class="btn-custom-admin me-2">Panele Dön</a>
+                    }
+                   
+                    <form method="post" action="/Hesap/Cikis" class="d-inline">
+                        <button type="submit" class="btn-custom-admin me-2">Çıkış Yap</button>
+                    </form>
+                }
+                else
+                {
+                    <a href="/Hesap/Giris" class="btn btn-primary btn-sm me-2">Giriş Yap</a>
+                    <a href="/Hesap/Kayit" class="btn btn-success btn-sm">Kayıt Ol</a>
+                }
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="sidebar" aria-labelledby="sidebarLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Kapat"></button>
+        </div>
+        <div class="offcanvas-body bg-dark text-white p-4">
+            <ul class="list-unstyled">
+                <li class="mb-3">
+                    <a href="/" class="text-white text-decoration-none d-flex align-items-center">
+                        <i class="bi bi-house-door me-3" style="font-size: 1.5rem;"></i> 
+                    </a>
+                </li>
+                <li class="mb-3">
+                    <a href="/" class="text-white text-decoration-none d-flex align-items-center">
+                        <i class="bi bi-info-circle me-3" style="font-size: 1.5rem;"></i>
+                        Anasayfa
+                    </a>
+                </li>
+
+                <li class="mb-3">
+                    <a href="/Home/Hakkimizda" class="text-white text-decoration-none d-flex align-items-center">
+                        <i class="bi bi-info-circle me-3" style="font-size: 1.5rem;"></i>
+                        Hakkımızda
+                    </a>
+                </li>
+                <li class="mb-3">
+                    <a href="#" class="text-white text-decoration-none d-flex align-items-center kalp-btn" data-bs-toggle="modal" data-bs-target="#favorilerModal">
+                        <i class="fas fa-heart me-3" style="font-size: 1.5rem; color: red;"></i>
+                        Favorilerim
+                    </a>
+                </li>
+
+                </li>
+                
+                <li class="mb-3">
+                    <a href="/Home/BizeUlasin" class="text-white text-decoration-none d-flex align-items-center">
+                        <i class="bi bi-envelope me-3" style="font-size: 1.5rem;"></i> 
+                        Bize Ulaşın
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="container mt-4">
+        @RenderBody()
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            
+            $("input[name='searchKeyword']").on("keyup", function () {
+                const keyword = $(this).val().trim();
+
+                $.ajax({
+                    url: "/Kitap/Ara", 
+                    type: "GET",
+                    data: { searchKeyword: keyword }, 
+                    success: function (response) {
+                        $("#kitapListesi").html(response);
+                    },
+                    error: function () {
+                        alert("Bir hata oluştu. Lütfen tekrar deneyin.");
+                    }
+                });
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            // Favoriler Modal Açıldığında Verileri Yükle
+            $('#favorilerModal').on('show.bs.modal', function () {
+                $.ajax({
+                    url: "/Kullanici/Favori", // Backend'de favori kitapları dönen endpoint
+                    type: "GET",
+                    success: function (response) {
+                        $("#favorilerListesi").html(response); // Gelen favorileri listeye yerleştir
+                    },
+                    error: function () {
+                        alert("Favoriler yüklenirken bir hata oluştu.");
+                    }
+                });
+            });
+        });
+    </script>
+
+
+
+
+
+</body>
+</html>

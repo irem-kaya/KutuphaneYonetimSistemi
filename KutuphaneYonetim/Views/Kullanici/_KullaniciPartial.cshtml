@@ -1,0 +1,30 @@
+﻿@model List<KutuphaneYonetim.Models.Kullanici>
+
+@foreach (var kullanici in Model)
+{
+    <tr>
+        <td>@kullanici.KullaniciAdi</td>
+        <td>
+            <ul>
+                @foreach (var odunc in kullanici.OduncIslemleri.Where(o => o.IadeTarihi == null))
+                {
+                    <li>@odunc.Kitap.KitapAdi</li>
+                }
+            </ul>
+        </td>
+        <td>
+            <ul>
+                @foreach (var odunc in kullanici.OduncIslemleri.Where(o => o.IadeTarihi != null))
+                {
+                    <li>@odunc.Kitap.KitapAdi</li>
+                }
+            </ul>
+        </td>
+        <td>@(kullanici.Durum ? "Aktif" : "Pasif")</td>
+        <td>
+            <button class="btn btn-sm btn-warning durum-degistir" data-id="@kullanici.KullaniciID">
+                @(kullanici.Durum ? "Pasif Yap" : "Aktif Yap")
+            </button>
+        </td>
+    </tr>
+}

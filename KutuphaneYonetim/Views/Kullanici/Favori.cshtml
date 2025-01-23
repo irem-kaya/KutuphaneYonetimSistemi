@@ -1,0 +1,57 @@
+﻿@model List<Favori>
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4" style="color: white;">Favorilerim</h2>
+    <div class="row g-4">
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var favori in Model)
+            {
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow-lg" style="border: none; border-radius: 15px; overflow: hidden;">
+                        <img src="@(!string.IsNullOrEmpty(favori.Kitap.ResimUrl) ? favori.Kitap.ResimUrl : "/images/default.png")" class="card-img-top" alt="Kitap Resmi" style="height: 300px; object-fit: cover;">
+                        <div class="card-body text-center" style="background-color: #1f1f1f; color: white;">
+                            <h5 class="card-title">@favori.Kitap.KitapAdi</h5>
+                            <p class="card-text">@favori.Kitap.Yazar</p>
+                            <button class="btn btn-danger btn-sm favorilerden-kaldir" data-kitap-id="@favori.KitapID">
+                                <i class="fas fa-trash"></i> Favorilerden Kaldır
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="text-center">
+                <p>Henüz hiçbir kitap favorilere eklenmemiş.</p>
+            </div>
+        }
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $(".favorilerden-kaldir").on("click", function () {
+            const kitapId = $(this).data("kitap-id");
+
+            if (confirm("Bu kitabı favorilerden kaldırmak istediğinize emin misiniz?")) {
+                $.ajax({
+                    url: "/Kullanici/FavorilerdenCikar",
+                    type: "POST",
+                    data: { kitapId: kitapId },
+                    success: function (response) {
+                        if (response.success) {
+                            location.reload(); // Sayfayı yenile
+                        } else {
+                            alert(response.message || "Bir hata oluştu.");
+                        }
+                    },
+                    error: function () {
+                        alert("Bir hata oluştu. Lütfen tekrar deneyiniz.");
+                    }
+                });
+            }
+        });
+    });
+</script>

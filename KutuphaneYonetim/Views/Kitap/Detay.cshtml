@@ -1,0 +1,32 @@
+﻿@model KutuphaneYonetim.Models.Kitap
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg" style="background-color: #1e1e1e; border-radius: 15px; color: white;">
+                <div class="row g-0">
+                    
+                    <div class="col-md-4 text-center p-4">
+                        <img src="@Model.ResimUrl" alt="@Model.KitapAdi" class="img-fluid rounded" style="max-height: 350px;">
+                    </div>
+                    
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            
+                            <h3 class="card-title text-center mb-4">@Model.KitapAdi</h3>
+                            <p><strong>ISBN:</strong> @Model.ISBN</p>
+                            <p><strong>Yazar:</strong> @Model.Yazar</p>
+                            <p><strong>Yayın Evi:</strong> @Model.Yayinevi</p>
+                            <p><strong>Tür:</strong> @Model.Tur</p>
+                            <p><strong>Yayın Yılı:</strong> @Model.YayimYili</p>
+                            <p><strong>Durum:</strong> @(Model.MusaitMi ? "Müsait" : "Ödünç Verildi")</p>
+                           
+                            
+                            <a href="@Url.Action("Listele", "Kitap")" class="btn btn-primary w-100 mt-3" style="font-size: 1.1rem; border-radius: 10px;">Kitap Listesine Dön</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

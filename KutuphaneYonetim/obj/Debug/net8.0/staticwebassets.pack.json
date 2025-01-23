@@ -1,0 +1,509 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KutuphaneYonetim.bundle.scp.css",
+      "PackagePath": "staticwebassets\\KutuphaneYonetim.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\101.png",
+      "PackagePath": "staticwebassets\\images\\101.png"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\201.png",
+      "PackagePath": "staticwebassets\\images\\201.png"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\Ekran Görüntüsü (11).png",
+      "PackagePath": "staticwebassets\\images\\Ekran Görüntüsü (11).png"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\Ekran Görüntüsü (12).png",
+      "PackagePath": "staticwebassets\\images\\Ekran Görüntüsü (12).png"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\Ekran Görüntüsü (15).png",
+      "PackagePath": "staticwebassets\\images\\Ekran Görüntüsü (15).png"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\Ekran Görüntüsü (4).png",
+      "PackagePath": "staticwebassets\\images\\Ekran Görüntüsü (4).png"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\Ekran Görüntüsü (9).png",
+      "PackagePath": "staticwebassets\\images\\Ekran Görüntüsü (9).png"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\Ekran görüntüsü 2024-01-06 152758.png",
+      "PackagePath": "staticwebassets\\images\\Ekran görüntüsü 2024-01-06 152758.png"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\Ekran görüntüsü 2024-07-23 222333.png",
+      "PackagePath": "staticwebassets\\images\\Ekran görüntüsü 2024-07-23 222333.png"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\Ekran görüntüsü 2024-10-02 213423.png",
+      "PackagePath": "staticwebassets\\images\\Ekran görüntüsü 2024-10-02 213423.png"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\Ekran görüntüsü 2025-01-07 173150.png",
+      "PackagePath": "staticwebassets\\images\\Ekran görüntüsü 2025-01-07 173150.png"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\Ekran görüntüsü 2025-01-07 173315.png",
+      "PackagePath": "staticwebassets\\images\\Ekran görüntüsü 2025-01-07 173315.png"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\Ekran görüntüsü 2025-01-07 173439.png",
+      "PackagePath": "staticwebassets\\images\\Ekran görüntüsü 2025-01-07 173439.png"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\Ekran görüntüsü 2025-01-07 173615.png",
+      "PackagePath": "staticwebassets\\images\\Ekran görüntüsü 2025-01-07 173615.png"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\Ekran görüntüsü 2025-01-07 173753.png",
+      "PackagePath": "staticwebassets\\images\\Ekran görüntüsü 2025-01-07 173753.png"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\Ekran görüntüsü 2025-01-07 173840.png",
+      "PackagePath": "staticwebassets\\images\\Ekran görüntüsü 2025-01-07 173840.png"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\Ekran görüntüsü 2025-01-07 173925.png",
+      "PackagePath": "staticwebassets\\images\\Ekran görüntüsü 2025-01-07 173925.png"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\Ekran görüntüsü 2025-01-21 003348.png",
+      "PackagePath": "staticwebassets\\images\\Ekran görüntüsü 2025-01-21 003348.png"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\WIN_20231215_15_05_00_Pro.jpg",
+      "PackagePath": "staticwebassets\\images\\WIN_20231215_15_05_00_Pro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\WIN_20231215_15_05_03_Pro.jpg",
+      "PackagePath": "staticwebassets\\images\\WIN_20231215_15_05_03_Pro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\WIN_20231215_15_05_05_Pro.jpg",
+      "PackagePath": "staticwebassets\\images\\WIN_20231215_15_05_05_Pro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\WIN_20231215_15_05_18_Pro.jpg",
+      "PackagePath": "staticwebassets\\images\\WIN_20231215_15_05_18_Pro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\WIN_20231215_15_06_31_Pro.jpg",
+      "PackagePath": "staticwebassets\\images\\WIN_20231215_15_06_31_Pro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\WIN_20250112_23_51_29_Pro.jpg",
+      "PackagePath": "staticwebassets\\images\\WIN_20250112_23_51_29_Pro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\agri-dagi-efsanesi.jpg",
+      "PackagePath": "staticwebassets\\images\\agri-dagi-efsanesi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\ankara.jpg",
+      "PackagePath": "staticwebassets\\images\\ankara.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\anna-karenina.jpg",
+      "PackagePath": "staticwebassets\\images\\anna-karenina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\araba-sevdasi.jpg",
+      "PackagePath": "staticwebassets\\images\\araba-sevdasi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\arka-plan.jpg",
+      "PackagePath": "staticwebassets\\images\\arka-plan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\aylakadam.jpg",
+      "PackagePath": "staticwebassets\\images\\aylakadam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\bereketli-topraklar-uzerinde.jpg",
+      "PackagePath": "staticwebassets\\images\\bereketli-topraklar-uzerinde.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\beyaz-gemi.jpg",
+      "PackagePath": "staticwebassets\\images\\beyaz-gemi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\bir-gun-tek-basina.jpg",
+      "PackagePath": "staticwebassets\\images\\bir-gun-tek-basina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\bir-idam-mahkumunun-son-gunu.jpg",
+      "PackagePath": "staticwebassets\\images\\bir-idam-mahkumunun-son-gunu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\calikusu.png",
+      "PackagePath": "staticwebassets\\images\\calikusu.png"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\dava.jpg",
+      "PackagePath": "staticwebassets\\images\\dava.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\default.png",
+      "PackagePath": "staticwebassets\\images\\default.png"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\devlet-ana.jpg",
+      "PackagePath": "staticwebassets\\images\\devlet-ana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\don-kisot.jpg",
+      "PackagePath": "staticwebassets\\images\\don-kisot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\felatun-bey-ile-rakim-efendi.jpg",
+      "PackagePath": "staticwebassets\\images\\felatun-bey-ile-rakim-efendi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\huzur.jpg",
+      "PackagePath": "staticwebassets\\images\\huzur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\insan-neyle-yasar.jpg",
+      "PackagePath": "staticwebassets\\images\\insan-neyle-yasar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\karamazov-kardesler.jpg",
+      "PackagePath": "staticwebassets\\images\\karamazov-kardesler.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\kuruk-mantolu-madonna.jpg",
+      "PackagePath": "staticwebassets\\images\\kuruk-mantolu-madonna.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\kuyucakli-yusuf.jpg",
+      "PackagePath": "staticwebassets\\images\\kuyucakli-yusuf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\madam-bovary.jpg",
+      "PackagePath": "staticwebassets\\images\\madam-bovary.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\monte-kristo-kontu.jpg",
+      "PackagePath": "staticwebassets\\images\\monte-kristo-kontu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\omerin-cocuklugu.jpg",
+      "PackagePath": "staticwebassets\\images\\omerin-cocuklugu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\saatleriayarlamaenstitusu.jpg",
+      "PackagePath": "staticwebassets\\images\\saatleriayarlamaenstitusu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\saatleriayarlamaenstitüsü.jpg",
+      "PackagePath": "staticwebassets\\images\\saatleriayarlamaenstitüsü.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\savas-ve-baris.jpg",
+      "PackagePath": "staticwebassets\\images\\savas-ve-baris.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\simyaci.jpg",
+      "PackagePath": "staticwebassets\\images\\simyaci.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\sinekli-bakkal.jpg",
+      "PackagePath": "staticwebassets\\images\\sinekli-bakkal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\sokratesin-savunmasi.jpg",
+      "PackagePath": "staticwebassets\\images\\sokratesin-savunmasi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\suc-ve-ceza.jpg",
+      "PackagePath": "staticwebassets\\images\\suc-ve-ceza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\toplantı_resim.png",
+      "PackagePath": "staticwebassets\\images\\toplantı_resim.png"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\tutun-zamani.jpg",
+      "PackagePath": "staticwebassets\\images\\tutun-zamani.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\tutunamayanlar.jpg",
+      "PackagePath": "staticwebassets\\images\\tutunamayanlar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\ucurtma-avcisi.jpg",
+      "PackagePath": "staticwebassets\\images\\ucurtma-avcisi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\yaban.jpg",
+      "PackagePath": "staticwebassets\\images\\yaban.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\images\\yuz-yillik-yalnizlik.jpg",
+      "PackagePath": "staticwebassets\\images\\yuz-yillik-yalnizlik.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\iremn\\OneDrive\\Desktop\\Web Tabanlı Programlama\\KutuphaneYonetim\\KutuphaneYonetim\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KutuphaneYonetim.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.KutuphaneYonetim.props",
+      "PackagePath": "build\\KutuphaneYonetim.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.KutuphaneYonetim.props",
+      "PackagePath": "buildMultiTargeting\\KutuphaneYonetim.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.KutuphaneYonetim.props",
+      "PackagePath": "buildTransitive\\KutuphaneYonetim.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

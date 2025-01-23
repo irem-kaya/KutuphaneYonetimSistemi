@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Bize Ulaşın";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (TempData["Mesaj"] != null)
+{
+    <div class="alert alert-success">@TempData["Mesaj"]</div>
+}
+
+@if (ViewBag.Hata != null)
+{
+    <div class="alert alert-danger">@ViewBag.Hata</div>
+}
+<style>
+    body {
+        background-image: url('/images/arka-plan.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .card {
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    }
+
+</style>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4" style="color: #1DB954; text-shadow: 0px 0px 10px rgba(29, 185, 84, 0.8);">
+        Bize Ulaşın
+    </h2>
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-lg p-4" style="background: linear-gradient(145deg, #202020, #282828); border-radius: 15px;">
+                <form method="post" asp-controller="Home" asp-action="BizeUlasin">
+                    <div class="form-group">
+                        <label for="adSoyad" style="color: white;">Ad Soyad</label>
+                        <input type="text" class="form-control" id="adSoyad" name="adSoyad" required placeholder="Adınızı ve soyadınızı giriniz" style="background-color: #333; color: white; border: none; border-radius: 5px;">
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="email" style="color: white;">E-Posta</label>
+                        <input type="email" class="form-control" id="email" name="email" required placeholder="E-posta adresinizi giriniz" style="background-color: #333; color: white; border: none; border-radius: 5px;">
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="mesaj" style="color: white;">Mesaj</label>
+                        <textarea class="form-control" id="mesaj" name="mesaj" rows="5" required placeholder="Mesajınızı buraya yazın" style="background-color: #333; color: white; border: none; border-radius: 5px;"></textarea>
+                    </div>
+                    <button type="submit" class="btn mt-4 w-100" style="background: linear-gradient(90deg, #1DB954, #1ED760); color: white; border: none; border-radius: 5px; box-shadow: 0px 4px 15px rgba(29, 185, 84, 0.4);">
+                        Gönder
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+

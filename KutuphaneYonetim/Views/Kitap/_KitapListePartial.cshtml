@@ -1,0 +1,71 @@
+﻿@model List<KutuphaneYonetim.Models.Kitap>
+
+@foreach (var kitap in Model)
+{
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="result-card d-flex flex-column justify-content-between">
+            <a href="/Kitap/Detay/@kitap.KitapID">
+                <img src="@(!string.IsNullOrEmpty(kitap.ResimUrl) ? kitap.ResimUrl : "/images/default.png")" alt="Kitap Resmi">
+            </a>
+            <div>
+                <h5>@kitap.KitapAdi</h5>
+                <p>@kitap.Yazar</p>
+            </div>
+            <div class="btn-container">
+                @if (User.IsInRole("Yonetici"))
+                {
+                    <a href="/Kitap/Guncelle/@kitap.KitapID" class="btn btn-warning btn-sm">Güncelle</a>
+                    <form method="post" action="/Kitap/Sil" style="display: inline;">
+                        <input type="hidden" name="kitapID" value="@kitap.KitapID" />
+                        <button type="submit" class="btn btn-danger btn-sm">Sil</button>
+                    </form>
+                }
+                else if (User.IsInRole("Kullanici"))
+                {
+                    @if (kitap.MusaitMi)
+                    {
+                        <form method="post" asp-controller="Odunc" asp-action="OduncAl">
+                            <input type="hidden" name="kitapID" value="@kitap.KitapID" />
+                            <button type="submit" class="btn btn-primary btn-sm">Ödünç Al</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <button class="btn btn-secondary btn-sm" disabled>Ödünç Verildi</button>
+                    }
+                }
+                else
+                {
+                    <a href="/Hesap/Giris" class="btn btn-primary btn-sm">Ödünç Al</a>
+                }
+            </div>
+        </div>
+    </div>
+}
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+       
+        $("input[name='searchKeyword']").on("keyup", function () {
+            const keyword = $(this).val().trim();
+
+            $.ajax({
+                url: "/Kitap/Ara", 
+                type: "GET",
+                data: { searchKeyword: keyword }, 
+                success: function (response) {
+                   
+                    $("#kitapListesi").html(response);
+                },
+                error: function () {
+                    alert("Bir hata oluştu. Lütfen tekrar deneyin.");
+                }
+            });
+        });
+    });
+</script>
+
+
+

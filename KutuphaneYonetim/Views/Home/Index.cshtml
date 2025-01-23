@@ -1,0 +1,68 @@
+﻿@model List<KutuphaneYonetim.Models.Kitap>
+
+<div class="d-flex">>
+    <div id="main-content" class="flex-grow-1" style="margin-left: 250px; transition: 0.3s;">
+        <div class="container mt-5">
+            <button class="btn btn-dark mb-3" onclick="toggleSidebar()">Menüyü Aç</button>
+
+            <h2 class="mb-4 text-center text-light">Kütüphane Yönetim Sistemi</h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+                @if (Model != null && Model.Any())
+                {
+                    foreach (var kitap in Model)
+                    {
+                        <div class="col">
+                            <div class="card h-100 shadow-sm bg-dark text-light">
+                                <a href="/Kitap/Detay/@kitap.KitapID" class="text-decoration-none">
+                                    <img src="@kitap.ResimUrl" class="card-img-top" alt="Kitap Resmi" style="height: 250px; object-fit: cover;">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">@kitap.KitapAdi</h5>
+                                    <p class="text-center text-muted">@kitap.Yazar</p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p class="text-muted text-center">Gösterilecek kitap bulunamadı.</p>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background-color: #121212;
+        color: white;
+    }
+
+    #sidebar {
+        width: 250px;
+        overflow-x: hidden;
+    }
+
+        #sidebar a:hover {
+            text-decoration: underline;
+        }
+
+    #main-content {
+        transition: margin-left 0.3s ease-in-out;
+    }
+</style>
+
+<script>
+    function toggleSidebar() {
+        const sidebar = document.getElementById('sidebar');
+        const mainContent = document.getElementById('main-content');
+        if (sidebar.style.width === '0px' || sidebar.style.width === '') {
+            sidebar.style.width = '250px';
+            mainContent.style.marginLeft = '250px';
+        } else {
+            sidebar.style.width = '0';
+            mainContent.style.marginLeft = '0';
+        }
+    }
+</script>

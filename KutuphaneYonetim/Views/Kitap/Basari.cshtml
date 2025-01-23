@@ -1,0 +1,62 @@
+﻿@model KutuphaneYonetim.Models.Kitap
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4" style="background-color: #1e1e1e; border-radius: 15px; border: none;">
+        <h2 class="text-center text-success mb-4" style="font-weight: bold;">Başarılı İşlem!</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-transparent text-light">
+                        <strong>Kitap Adı:</strong> @Model.KitapAdi
+                    </li>
+                    <li class="list-group-item bg-transparent text-light">
+                        <strong>Yazar:</strong> @Model.Yazar
+                    </li>
+                    <li class="list-group-item bg-transparent text-light">
+                        <strong>Yayın Evi:</strong> @Model.Yayinevi
+                    </li>
+                    <li class="list-group-item bg-transparent text-light">
+                        <strong>Tür:</strong> @Model.Tur
+                    </li>
+                    <li class="list-group-item bg-transparent text-light">
+                        <strong>Yayın Yılı:</strong> @Model.YayimYili
+                    </li>
+                    <li class="list-group-item bg-transparent text-light">
+                        <strong>Durum:</strong> @(Model.MusaitMi ? "Müsait" : "Ödünç Verildi")
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <img src="@Model.ResimUrl" alt="@Model.KitapAdi" class="img-fluid rounded shadow" style="max-height: 300px;">
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="@Url.Action("Listele", "Kitap")" class="btn btn-primary">Kitap Listesine Dön</a>
+        </div>
+    </div>
+</div>
+
+
+
+<style>
+    .glow-button {
+        display: inline-block;
+        padding: 12px 25px;
+        font-size: 1.2rem;
+        color: #ffffff;
+        text-align: center;
+        text-decoration: none;
+        background: rgba(0, 123, 255, 0.1);
+        border: 1px solid #007bff;
+        border-radius: 30px;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 0 10px #007bff, 0 0 40px #007bff, 0 0 80px #007bff;
+    }
+
+        .glow-button:hover {
+            background: #007bff;
+            color: #ffffff;
+            box-shadow: 0 0 20px #007bff, 0 0 60px #007bff, 0 0 120px #007bff;
+            transform: scale(1.05);
+        }
+</style>

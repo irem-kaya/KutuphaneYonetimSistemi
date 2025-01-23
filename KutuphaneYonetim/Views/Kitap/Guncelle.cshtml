@@ -1,0 +1,58 @@
+﻿@model KutuphaneYonetim.Models.Kitap
+
+<div class="container mt-5">
+    <h2 class="text-center text-light mb-4">Kitap Güncelle</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card p-4 shadow-lg" style="background-color: #1e1e1e; border: none; border-radius: 10px;">
+                <form asp-action="Guncelle" method="post" enctype="multipart/form-data">
+                    <input type="hidden" asp-for="KitapID" />
+                    <div class="form-group mb-3">
+                        <label for="isbn" class="form-label text-light">ISBN</label>
+                        <input asp-for="ISBN" class="form-control" id="isbn" placeholder="ISBN giriniz" />
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label for="kitapAdi" class="form-label text-light">Kitap Adı</label>
+                        <input asp-for="KitapAdi" class="form-control" id="kitapAdi" required placeholder="Kitap adını giriniz" />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="yazar" class="form-label text-light">Yazar</label>
+                        <input asp-for="Yazar" class="form-control" id="yazar" required placeholder="Yazar adını giriniz" />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="yayinevi" class="form-label text-light">Yayın Evi</label>
+                        <input asp-for="Yayinevi" class="form-control" id="yayinevi" required placeholder="Yayın evi giriniz" />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="tur" class="form-label text-light">Tür</label>
+                        <input asp-for="Tur" class="form-control" id="tur" required placeholder="Tür giriniz" />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="yayimYili" class="form-label text-light">Yayın Yılı</label>
+                        <input asp-for="YayimYili" class="form-control" id="yayimYili" type="number" required placeholder="Yayın yılını giriniz" />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label class="form-label text-light">Mevcut Resim</label>
+                        <div class="text-center mb-3">
+                            <img src="@Model.ResimUrl" alt="Kitap Resmi" class="img-fluid rounded shadow-sm" style="max-width: 150px;" />
+                        </div>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="resim" class="form-label text-light">Yeni Resim Yükle</label>
+                        <input type="file" name="yeniResim" class="form-control" id="resim" />
+                        <small class="form-text text-muted">Mevcut resim: @Model.ResimUrl</small>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="musaitMi" class="form-label text-light">Durum</label>
+                        <select asp-for="MusaitMi" class="form-select">
+                            <option value="true">Müsait</option>
+                            <option value="false">Ödünç Verildi</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100 py-2" style="font-size: 1.2rem; border-radius: 20px;">Güncelle</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

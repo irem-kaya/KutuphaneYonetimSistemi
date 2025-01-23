@@ -1,0 +1,109 @@
+﻿@{
+    ViewData["Title"] = "Ana Sayfa";
+    var kullanici = User.Identity.Name ?? "Misafir";
+    var rol = User.FindFirst(System.Security.Claims.ClaimTypes.Role)?.Value ?? "Tanımsız";
+}
+
+<div class="container mt-5">
+    <div class="user-info mb-4">
+        Hoş geldiniz, <span>@kullanici</span>! Rolünüz: <span class="role">@rol</span>
+    </div>
+
+    <div class="action-buttons">
+        @if (rol == "Yonetici")
+        {
+            <a href="/Kitap/Ekle" class="btn-custom">Kitap Ekle</a>
+            <a href="/Kitap/Listele" class="btn-custom btn-secondary-custom">Kitapları Yönet</a>
+            <a href="/Kullanici/Listele" class="btn-custom btn-warning-custom">Kullanıcıları Yönet</a>
+        }
+        else if (rol == "Kullanici")
+        {
+            <a href="/Kitap/Listele" class="btn-custom-dark">Kitaplara Göz At</a>
+            <a href="/Odunc/OduncAlinanlar" class="btn-custom-dark">Ödünç Aldığım Kitaplar</a>
+        }
+    </div>
+</div>
+
+<style>
+    body {
+        background-image: url('/images/arka-plan.jpg'); 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        position: relative;
+    }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); 
+            z-index: -1;
+        }
+
+    .user-info {
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(31, 31, 31, 0.8);
+        border-radius: 10px;
+        color: #ffffff;
+        font-size: 1.8rem;
+        font-weight: bold;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+        margin-bottom: 30px;
+    }
+
+        .user-info .role {
+            color: #FFC107;
+        }
+
+    .action-buttons {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        gap: 20px; 
+    }
+
+    .btn-custom, .btn-custom-dark {
+        width: 250px;
+        padding: 15px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: 30px;
+        transition: transform 0.3s, background-color 0.3s, color 0.3s;
+        text-decoration: none;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    .btn-custom {
+        color: white;
+        background-color: #1DB954;
+        border: none;
+    }
+
+        .btn-custom:hover {
+            background-color: #1AA34A;
+            transform: scale(1.05);
+        }
+
+    .btn-custom-dark {
+        color: #FFC107;
+        background-color: #1f1f1f; 
+        border: 2px solid #FFC107;
+    }
+
+        .btn-custom-dark:hover {
+            background-color: #FFC107; 
+            color: #121212; 
+            transform: scale(1.05);
+        }
+</style>
