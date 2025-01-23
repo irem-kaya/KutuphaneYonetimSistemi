@@ -109,6 +109,8 @@ Sisteme giriş yaptıktan sonra karşılaştığı hoş geldiniz ekranı.
 ### Kullanicilari Yönet Paneli
 ![image](https://github.com/user-attachments/assets/6416af51-a262-4cc3-bd1e-9f61aabb9a06)
 
+### Veritabanı Yapısı
+![Ekran görüntüsü 2025-01-23 134618](https://github.com/user-attachments/assets/fbf043f4-40c4-4502-b790-a61595107936)
 
 ---
 ## 🛠️ **Teknik Bilgiler**
