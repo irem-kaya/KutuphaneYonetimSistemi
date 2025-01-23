@@ -80,7 +80,6 @@ Kitapların detaylı bilgileri ve ödünç alma işlemleri.
 Kütüphanede mevcut kitapların listesi.
 ![Ekran görüntüsü 2025-01-23 122416](https://github.com/user-attachments/assets/4bb34136-2909-462e-b44c-fa7139719a94)
 
-
 ### Favorileme ve Favorileri Görüntüleme
 Kullanıcının favorilediği kitaplar listesi.
 ![Ekran görüntüsü 2025-01-23 123321](https://github.com/user-attachments/assets/a9d126b3-c20c-48c8-a080-03d0ab5b1187)
