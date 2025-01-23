@@ -54,6 +54,9 @@ Kütüphane Yönetim Sistemi, bir kütüphanenin kullanıcı yönetimi, kitap ö
 
 ### 4. **Kullanıcı Yönetimi**:
 - Kullanıcıların geçmiş ve şimdiki ödünç işlemleri görüntülenebilir.
+  
+### 5. **Gelişmiş Arama**
+- Yazar ve kitap adına göre arama yapılabilir.
 
 ---
 
