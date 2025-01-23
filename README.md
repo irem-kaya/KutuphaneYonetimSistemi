@@ -66,7 +66,6 @@ Kullanıcıların sisteme giriş yaptıktan sonra karşılaştığı hoş geldin
 #### Kitaplara Göz At
 ![Ekran görüntüsü 2025-01-23 123002](https://github.com/user-attachments/assets/03d34913-7ba0-4577-b9b1-6731e600a49e)
 
-
 ### Hakkımızda Syfası
 ![Ekran görüntüsü 2025-01-23 123602](https://github.com/user-attachments/assets/5d35d245-2acd-4ad4-aa23-0cd0af4483a6)
 
@@ -85,12 +84,12 @@ Kitapların detaylı bilgileri ve ödünç alma işlemleri.
 ![image](https://github.com/user-attachments/assets/d0b8c1cc-d5a3-4790-a324-0ba20874cc88)
 ![Ekran görüntüsü 2025-01-23 123205](https://github.com/user-attachments/assets/86657f10-e0b5-4982-9b1f-1e936c037787)
 
-###Favorileme ve Favorileri Görüntüleme
+### Favorileme ve Favorileri Görüntüleme
+Kullanıcının favorilediği kitaplar listesi.
 ![Ekran görüntüsü 2025-01-23 123321](https://github.com/user-attachments/assets/a9d126b3-c20c-48c8-a080-03d0ab5b1187)
 ![Ekran görüntüsü 2025-01-23 123500](https://github.com/user-attachments/assets/f3d46bc0-eb28-4869-9054-2d1cbb81d84a)
 
 ---
-
 ## 🛠️ **Teknik Bilgiler**
 - **Dil ve Teknolojiler**:
   - ASP.NET Core MVC
