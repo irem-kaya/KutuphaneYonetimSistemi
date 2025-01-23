@@ -69,7 +69,7 @@ Kullanıcıların sisteme giriş yaptıktan sonra karşılaştığı hoş geldin
 ![Ekran görüntüsü 2025-01-23 123602](https://github.com/user-attachments/assets/5d35d245-2acd-4ad4-aa23-0cd0af4483a6)
 
 ### Bize Ulaşın Sayfası
-![Ekran görüntüsü 2025-01-23 123602](https://github.com/user-attachments/assets/ed99b401-a984-4d79-b3e0-37ce636d5804)
+![image](https://github.com/user-attachments/assets/c2c5d37d-e3f8-44bc-a03a-c5126db1260f)
 
 ### Kitap Listesi
 Kütüphanede mevcut kitapların listesi.
