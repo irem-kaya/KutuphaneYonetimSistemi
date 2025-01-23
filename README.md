@@ -47,14 +47,13 @@ Kütüphane Yönetim Sistemi, bir kütüphanenin kullanıcı yönetimi, kitap ö
 ### 2. **Giriş ve Kayıt İşlemleri**:
 - Yeni kullanıcı kaydı oluşturmak için "Kayıt Ol" seçeneğini kullanın.
 - Mevcut bir kullanıcı hesabıyla giriş yapmak için "Giriş Yap" seçeneğini kullanın.
-- Ödünç l işlemleri için giriş yapmak zorunludur.
+- Ödünç işlemleri için giriş yapmak zorunludur.
 
 ### 3. **Kitap Yönetimi**:
 - Admin panelinden kitap ekleme, güncelleme ve silme işlemleri yapılabilir.
 
 ### 4. **Kullanıcı Yönetimi**:
-- Kullanıcılar, aktif/pasif duruma getirilebilir.
-- Pasif durumdaki kullanıcıların sisteme erişimi engellenir.
+- Kullanıcıların geçmiş ve şimdiki ödünç işlemleri görüntülenebilir.
 
 ---
 
