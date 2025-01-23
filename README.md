@@ -63,7 +63,7 @@ Kütüphane Yönetim Sistemi, bir kütüphanenin kullanıcı yönetimi, kitap ö
 ![Ekran görüntüsü 2025-01-23 130731](https://github.com/user-attachments/assets/6ac3596f-16f3-4afc-b1f7-482a1619b43a)
 ![Ekran görüntüsü 2025-01-23 130801](https://github.com/user-attachments/assets/0b9037cb-0e26-4226-914d-8124bb761f97)
 
-# Kullanici Sayfalari
+## Kullanici Sayfalari
 
 ### Ana Sayfa
 Kullanıcıların sisteme giriş yaptıktan sonra karşılaştığı hoş geldiniz ekranı.
@@ -90,7 +90,7 @@ Kullanıcının favorilediği kitaplar listesi.
 ![Ekran görüntüsü 2025-01-23 123321](https://github.com/user-attachments/assets/a9d126b3-c20c-48c8-a080-03d0ab5b1187)
 ![Ekran görüntüsü 2025-01-23 123500](https://github.com/user-attachments/assets/f3d46bc0-eb28-4869-9054-2d1cbb81d84a)
 
-# Admin Sayfaları 
+## Admin Sayfaları 
 ### Ana Sayfa
 Sisteme giriş yaptıktan sonra karşılaştığı hoş geldiniz ekranı.
 ![image](https://github.com/user-attachments/assets/1ef6f907-1251-4279-b610-94074472cbaf)
