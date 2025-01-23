@@ -76,9 +76,6 @@ Kullanıcıların sisteme giriş yaptıktan sonra karşılaştığı hoş geldin
 Kütüphanede mevcut kitapların listesi.
 ![Ekran görüntüsü 2025-01-23 122416](https://github.com/user-attachments/assets/4bb34136-2909-462e-b44c-fa7139719a94)
 
-### Kullanıcı Listesi
-Adminlerin tüm kullanıcıları görebildiği ve durumlarını değiştirebildiği liste.
-
 ### Kitap Detayları ve Ödünç Alma
 Kitapların detaylı bilgileri ve ödünç alma işlemleri.
 ![image](https://github.com/user-attachments/assets/d0b8c1cc-d5a3-4790-a324-0ba20874cc88)
@@ -88,6 +85,20 @@ Kitapların detaylı bilgileri ve ödünç alma işlemleri.
 Kullanıcının favorilediği kitaplar listesi.
 ![Ekran görüntüsü 2025-01-23 123321](https://github.com/user-attachments/assets/a9d126b3-c20c-48c8-a080-03d0ab5b1187)
 ![Ekran görüntüsü 2025-01-23 123500](https://github.com/user-attachments/assets/f3d46bc0-eb28-4869-9054-2d1cbb81d84a)
+
+# Admin Sayfaları 
+### Ana Sayfa
+Kullanıcıların sisteme giriş yaptıktan sonra karşılaştığı hoş geldiniz ekranı.
+![image](https://github.com/user-attachments/assets/1ef6f907-1251-4279-b610-94074472cbaf)
+### Kitap Ekleme Paneli
+![image](https://github.com/user-attachments/assets/39fcfbd6-6182-4968-b1bd-d69cf82ee6ec)
+![image](https://github.com/user-attachments/assets/0667359e-8b50-4349-8463-d0fd6d50680d)
+
+![image](https://github.com/user-attachments/assets/93baa4a4-2124-49d4-a12f-e15866739cb8)
+![image](https://github.com/user-attachments/assets/f9e6e0c8-a534-497d-a472-ba163cc707f2)
+![image](https://github.com/user-attachments/assets/6416af51-a262-4cc3-bd1e-9f61aabb9a06)
+
+
 
 ---
 ## 🛠️ **Teknik Bilgiler**
