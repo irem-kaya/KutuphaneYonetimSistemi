@@ -55,6 +55,7 @@ YouTube Videosunu Buradan İzleyebilirsiniz -> https://youtu.be/RoVZikdyvto
 ---
 
 ## 📸 **Proje Görselleri**
+Aşağıdaki görseller, projede geliştirilen özellikleri detaylı bir şekilde göstermektedir. Bu görseller proje kullanıcı deneyimini ve tasarımlarının ana hatlarını sunmaktadır:
 
 ### Giriş Yap ve Kayit Ol Ekranları
 ![Ekran görüntüsü 2025-01-23 130731](https://github.com/user-attachments/assets/6ac3596f-16f3-4afc-b1f7-482a1619b43a)
