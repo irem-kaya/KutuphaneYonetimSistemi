@@ -1,9 +1,10 @@
 # Kütüphane Yönetim Sistemi
-
 Kütüphane Yönetim Sistemi, bir kütüphanenin kullanıcı yönetimi, kitap ödünç verme işlemleri ve kitap yönetimi gibi işlevlerini etkin bir şekilde gerçekleştirmek için tasarlanmış bir web uygulamasıdır. Bu proje, kullanıcı dostu arayüzü ve dinamik özellikleri ile hem kullanıcıların hem de yöneticilerin ihtiyaçlarını karşılamayı hedefler.
 
----
+# YouTube Tanıtım Videosu 📺
+[YouTube Videosunu Buradan İzleyebilirsiniz] https://youtu.be/RoVZikdyvto
 
+---
 ## 🎯 **Projenin Özellikleri**
 
 ### Kullanıcı İşlevleri:
@@ -112,7 +113,7 @@ Sisteme giriş yaptıktan sonra karşılaştığı hoş geldiniz ekranı.
 ---
 ## 🛠️ **Teknik Bilgiler**
 - **Dil ve Teknolojiler**:
-  - ASP.NET Core MVC
+  - ASP.NET MVC
   - Entity Framework Core
   - JavaScript & jQuery
   - Bootstrap 5
