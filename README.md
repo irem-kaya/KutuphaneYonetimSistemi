@@ -38,18 +38,18 @@ YouTube Videosunu Buradan İzleyebilirsiniz -> https://youtu.be/RoVZikdyvto
 ---
 ## 🚀 **Kullanım Rehberi**
 
-### 2. **Giriş ve Kayıt İşlemleri**:
+### 1. **Giriş ve Kayıt İşlemleri**:
 - Yeni kullanıcı kaydı oluşturmak için "Kayıt Ol" seçeneğini kullanın.
 - Mevcut bir kullanıcı hesabıyla giriş yapmak için "Giriş Yap" seçeneğini kullanın.
 - Ödünç işlemleri için giriş yapmak zorunludur.
 
-### 3. **Kitap Yönetimi**:
+### 2. **Kitap Yönetimi**:
 - Admin panelinden kitap ekleme, güncelleme ve silme işlemleri yapılabilir.
 
-### 4. **Kullanıcı Yönetimi**:
+### 3. **Kullanıcı Yönetimi**:
 - Kullanıcıların geçmiş ve şimdiki ödünç işlemleri görüntülenebilir.
   
-### 5. **Gelişmiş Arama**
+### 4. **Gelişmiş Arama**
 - Yazar ve kitap adına göre arama yapılabilir.
 
 ---
@@ -61,7 +61,6 @@ YouTube Videosunu Buradan İzleyebilirsiniz -> https://youtu.be/RoVZikdyvto
 ![Ekran görüntüsü 2025-01-23 130801](https://github.com/user-attachments/assets/0b9037cb-0e26-4226-914d-8124bb761f97)
 
 ## Kullanici Sayfalari
-
 ### Ana Sayfa
 Kullanıcıların sisteme giriş yaptıktan sonra karşılaştığı hoş geldiniz ekranı.
 ![Ekran görüntüsü 2025-01-23 122911](https://github.com/user-attachments/assets/52b27ce4-3d84-4ab9-854d-8bc707889315)
@@ -96,6 +95,7 @@ Sisteme giriş yaptıktan sonra karşılaştığı hoş geldiniz ekranı.
 ### Kullanicilari Yönet Paneli
 ![image](https://github.com/user-attachments/assets/6416af51-a262-4cc3-bd1e-9f61aabb9a06)
 
+
 ### Hakkımızda Sayfası
 ![Ekran görüntüsü 2025-01-23 123602](https://github.com/user-attachments/assets/5d35d245-2acd-4ad4-aa23-0cd0af4483a6)
 
@@ -114,7 +114,7 @@ Sisteme giriş yaptıktan sonra karşılaştığı hoş geldiniz ekranı.
 - **Frontend**:
   - HTML5, CSS3
 
-### Veritabanı Yapısı
+### Veritabanı İlişki Tabloları
 ![Ekran görüntüsü 2025-01-23 134618](https://github.com/user-attachments/assets/fbf043f4-40c4-4502-b790-a61595107936)
 
 ---
