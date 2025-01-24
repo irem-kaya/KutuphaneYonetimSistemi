@@ -36,14 +36,7 @@ Kütüphane Yönetim Sistemi, bir kütüphanenin kullanıcı yönetimi, kitap ö
    - Gecikme cezaları ve iade durumları kontrol edilebilir.
 
 ---
-
 ## 🚀 **Kullanım Rehberi**
-
-### 1. **Projenin Çalıştırılması**:
-- Proje dosyalarını indirip bir geliştirme ortamında açın (Visual Studio gibi).
-- Gerekli bağımlılıkları yükleyin (ör. Entity Framework, Bootstrap).
-- Veritabanı yapılandırmasını tamamlayın ve `update-database` komutunu çalıştırarak veritabanını oluşturun.
-- Projeyi `F5` ile çalıştırarak yerel sunucuda başlatın.
 
 ### 2. **Giriş ve Kayıt İşlemleri**:
 - Yeni kullanıcı kaydı oluşturmak için "Kayıt Ol" seçeneğini kullanın.
@@ -82,13 +75,6 @@ Kitapların detaylı bilgileri ve ödünç alma işlemleri.
 ![Ekran görüntüsü 2025-01-23 123205](https://github.com/user-attachments/assets/86657f10-e0b5-4982-9b1f-1e936c037787)
 ![image](https://github.com/user-attachments/assets/b626bdb8-13c5-428b-8620-fd03ecbde03b)
 
-
-### Hakkımızda Sayfası
-![Ekran görüntüsü 2025-01-23 123602](https://github.com/user-attachments/assets/5d35d245-2acd-4ad4-aa23-0cd0af4483a6)
-
-### Bize Ulaşın Sayfası
-![image](https://github.com/user-attachments/assets/c2c5d37d-e3f8-44bc-a03a-c5126db1260f)
-
 ### Favorileme ve Favorileri Görüntüleme
 Kullanıcının favorilediği kitaplar listesi.
 ![Ekran görüntüsü 2025-01-23 123321](https://github.com/user-attachments/assets/a9d126b3-c20c-48c8-a080-03d0ab5b1187)
@@ -110,6 +96,12 @@ Sisteme giriş yaptıktan sonra karşılaştığı hoş geldiniz ekranı.
 ### Kullanicilari Yönet Paneli
 ![image](https://github.com/user-attachments/assets/6416af51-a262-4cc3-bd1e-9f61aabb9a06)
 
+### Hakkımızda Sayfası
+![Ekran görüntüsü 2025-01-23 123602](https://github.com/user-attachments/assets/5d35d245-2acd-4ad4-aa23-0cd0af4483a6)
+
+### Bize Ulaşın Sayfası
+![image](https://github.com/user-attachments/assets/c2c5d37d-e3f8-44bc-a03a-c5126db1260f)
+
 ---
 ## 🛠️ **Teknik Bilgiler**
 - **Dil ve Teknolojiler**:
@@ -124,7 +116,6 @@ Sisteme giriş yaptıktan sonra karşılaştığı hoş geldiniz ekranı.
 
 ### Veritabanı Yapısı
 ![Ekran görüntüsü 2025-01-23 134618](https://github.com/user-attachments/assets/fbf043f4-40c4-4502-b790-a61595107936)
-
 
 ---
 
